@@ -24,17 +24,24 @@ task clean(type: Delete) {
 // Define versions in a single place
 ext {
     // Sdk and tools
+
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.1'
     minSdkVersion = 20
     targetSdkVersion = 26
-    compileSdkVersion = 26
-    buildToolsVersion = '26.0.0'
 
     // App dependencies
-    supportLibraryVersion = '26.+'
-    playServicesVersion='11.0.2'
+    supportLibraryVersion = '25.3.1'
+    playServicesVersion = '11.0.2'
+    gson = "2.8.1"
 
-    retrofit2='2.2.0'
-    butterknife='8.5.1'
+    retrofit2 = '2.3.0'
+    butterknife = '8.8.1'
+    rxjava = "2.0.0"
+
+    okHttp3 = "3.6.0"
+    picasso = "2.5.2"
+    facebook = "4.26.0"
 
     junitVersion = '4.12'
     mockitoVersion = '1.10.19'
