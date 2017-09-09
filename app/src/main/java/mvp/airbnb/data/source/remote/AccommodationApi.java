@@ -2,13 +2,14 @@ package mvp.airbnb.data.source.remote;
 
 
 
+import io.reactivex.Observable;
 import mvp.airbnb.data.source.remote.response.AccommodationResponse;
 import mvp.airbnb.data.source.remote.response.SearchAccomodationResponse;
 import mvp.airbnb.data.source.remote.response.SearchDataResponse;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
-import rx.Observable;
+
 
 
 /**

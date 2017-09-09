@@ -4,7 +4,7 @@ package mvp.airbnb.data;
  * Created by jp on 9/9/17.
  */
 
-public class Location {
+public class Accommodation {
 
     private int id;
     private int price, capacity, beds, bedrooms, guest;
@@ -14,7 +14,7 @@ public class Location {
     private float bathroom;
     private boolean isFavorite;
 
-    
+
 
     public int getId() {
         return id;
