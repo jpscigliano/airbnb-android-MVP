@@ -1,7 +1,9 @@
-package mvp.airbnb;
+package mvp.airbnb.mainscreen;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import mvp.airbnb.R;
 
 public class MainActivity extends AppCompatActivity {
 
