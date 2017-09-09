@@ -106,7 +106,7 @@ public class AccommodationService extends BaseService {
         mApi.getAccommodationById(accommodationId, CLIENT_ID, FOMRATING_LIST).
                 subscribeOn(Schedulers.newThread()).
                 observeOn(AndroidSchedulers.mainThread()).
-                subscribe(new DisposableObserver<AccommodationResponse>() {
+                subscribe(new DisposableObserver<AccommodationResponse>(){
 
                     @Override
                     public void onNext(@NonNull AccommodationResponse accommodationResponse) {
