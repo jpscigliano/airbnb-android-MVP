@@ -14,6 +14,9 @@ public class Accommodation {
     private float bathroom;
     private boolean isFavorite;
 
+    public Accommodation(){
+    	
+    }
 
 
     public int getId() {
